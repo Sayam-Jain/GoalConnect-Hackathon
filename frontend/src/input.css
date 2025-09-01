@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Afacad Flux", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+        "slnt" 0;
+}
+
+body {
+    @apply bg-background-dark
+}
+
+@layer components {
+    .match-container {
+        @apply flex flex-col md:flex-row gap-5 items-center justify-between bg-[#1c1f26] rounded border hover:border-gray-100 border-gray-600 border-[1px] p-5 cursor-pointer;
+    }
+}
+
