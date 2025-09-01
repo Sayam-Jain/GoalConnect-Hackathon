@@ -29,7 +29,7 @@ To deploy the application locally using docker, follow these steps:
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/MadScientistt4/Goal-Connect.git
+   git clone https://github.com/Sayam-Jain/GoalConnect-Hackathon.git
    ```
 
 1. Build the docker image
